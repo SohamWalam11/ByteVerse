@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JusticePal - Legal Chatbot</title>
+  <link rel="stylesheet" href="./static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>⚖️ JusticePal</h1>
+    <div id="chat-box"></div>
+
+    <div class="input-group">
+      <input type="text" id="user-input" placeholder="Type your message..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <div class="controls">
+      <select id="lang-select">
+        <option value="English">English</option>
+        <option value="hi">Hindi</option>
+        <option value="mr">Marathi</option>
+        <option value="ta">Tamil</option>
+        <option value="te">Telugu</option>
+        <option value="gu">Gujarati</option>
+        <option value="bn">Bengali</option>
+        <option value="pa">Punjabi</option>
+        <option value="ur">Urdu</option>
+      </select>
+      <button onclick="startNewChat()">🆕 New Chat</button>
+    </div>
+  </div>
+
+  <script src="./static/script.js"></script>
+</body>
+</html>
